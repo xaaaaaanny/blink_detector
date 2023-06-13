@@ -3,7 +3,7 @@
 import cv2
 import time
 
-cap = cv2.VideoCapture(0) #Capture video from storage/ laptop camera / IP based camera
+cap = cv2.VideoCapture(1) #Capture video from storage/ laptop camera / IP based camera
 
 while True:
     ret, frame = cap.read()  # read frame/image one by one     
